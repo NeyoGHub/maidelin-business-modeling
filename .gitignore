@@ -1,0 +1,44 @@
+# ===== 敏感信息（发布前务必检查） =====
+.env
+*.env
+.env.local
+secrets.*
+*.secret
+credentials*
+*.cred
+*.pem
+*.key
+*.pfx
+
+# ===== 数据库/数据文件 =====
+*.db
+*.sqlite
+*.sqlite3
+*.bak
+*.sql.bak
+data/
+*.csv
+*.xlsx
+*.jsonl
+
+# ===== 临时/缓存文件 =====
+*.tmp
+*.swp
+*.swo
+*~
+*.log
+.cache/
+.tmp/
+
+# ===== 编辑器/IDE =====
+.vscode/
+.idea/
+*.suo
+*.user
+.DS_Store
+
+# ===== 打包产物 =====
+*.tar.gz
+*.zip
+dist/
+build/
