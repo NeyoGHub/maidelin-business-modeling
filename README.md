@@ -62,7 +62,9 @@ maidelin-business-modeling/
 ├── README.md              # 本说明
 ├── references/
 │   ├── USAGE.md           # 使用手册（26 个可用案例）
-│   └── FEATURES.md        # 功能说明书（当前 + 未来扩展规划）
+│   ├── FEATURES.md        # 功能说明书（当前 + 未来扩展规划）
+│   ├── S6-QUERY.md        # 连接/执行/数据源速查/查数示例
+│   └── QUERY-RUNBOOK.md   # 实测 runbook：A8拜访/实时口径/库存超储/批次/沉默客户
 └── scripts/
     ├── 01-customer-metrics.sql   # 客户基础指标（活跃/客户利润/退货率）
     ├── 02-collection-cycle.sql   # 客户回款周期（严谨算法）
